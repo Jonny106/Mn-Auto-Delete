@@ -8,7 +8,7 @@ from bson import Int64
 # @MrMNTG Or @MusammilN 
 
 # MongoDB setup (Koyeb-compatible)
-MONGO_URI = os.environ.get("MONGO_URI", "mongodb://localhost:27017")
+MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://jonnywaker002:WlPnEIcbNTY2jc47@jonny002.fgsyjqw.mongodb.net/?retryWrites=true&w=majority")
 mongo_client = MongoClient(MONGO_URI)
 db = mongo_client["auto_delete_bot"]
 settings_collection = db["settings"]
